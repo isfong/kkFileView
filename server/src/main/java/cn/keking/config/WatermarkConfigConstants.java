@@ -9,15 +9,15 @@ import org.springframework.beans.factory.annotation.Value;
 public class WatermarkConfigConstants {
 
     private static String WATERMARK_TXT;
-    private static String WATERMARK_X_SPACE;
-    private static String WATERMARK_Y_SPACE;
+    private static String WATERMARK_X_SPACE = "10";
+    private static String WATERMARK_Y_SPACE = "10";
     private static String WATERMARK_FONT;
     private static String WATERMARK_FONTSIZE;
     private static String WATERMARK_COLOR;
-    private static String WATERMARK_ALPHA;
-    private static String WATERMARK_WIDTH;
-    private static String WATERMARK_HEIGHT;
-    private static String WATERMARK_ANGLE;
+    private static String WATERMARK_ALPHA = "0.2";
+    private static String WATERMARK_WIDTH = "180";
+    private static String WATERMARK_HEIGHT = "80";
+    private static String WATERMARK_ANGLE = "10";
 
     public static String DEFAULT_WATERMARK_TXT = "";
     public static String DEFAULT_WATERMARK_X_SPACE = "10";

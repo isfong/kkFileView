@@ -74,7 +74,7 @@
             <id>klboke</id>
             <name>kl</name>
             <email>g632104866@gmail.com</email>
-            <url>http://www.kailing.pub</url>
+            <url>https://www.kailing.pub</url>
         </developer>
         <developer>
             <id>gitchenjh</id>
@@ -87,5 +87,18 @@
         <system>github</system>
         <url>https://github.com/kekingcn/kkFileView/issues</url>
     </issueManagement>
-
+    <repositories>
+        <repository>
+            <id>Alibaba</id>
+            <name>Alibaba maven proxy repository</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>Alibaba</id>
+            <name>Alibaba maven proxy repository</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </pluginRepository>
+    </pluginRepositories>
 </project>

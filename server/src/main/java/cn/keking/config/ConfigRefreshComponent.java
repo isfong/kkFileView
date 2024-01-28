@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
  * @time: 2019/4/10 16:16
  * @description 每隔1s读取并更新一次配置文件
  */
-@Component
+//@Component
 public class ConfigRefreshComponent {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ConfigRefreshComponent.class);
